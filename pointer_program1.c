@@ -17,7 +17,7 @@ int main(void)
 
 	while(i<4)
 	{
-		printf("%d ", *(p+i));
+		printf("%d ", p[i]);   // *(p+i) is equivalent to p[i]
 		i++;
 	}
 
